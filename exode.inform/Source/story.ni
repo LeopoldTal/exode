@@ -65,9 +65,6 @@ After reading a command:
 
 Section 3 - Synonyms
 
-To say nbsp:
-	say "[unicode 160]".
-
 Understand "johannes" and "johanes" and "yohannes" and "yohanes" and "johann" and "johan" and "yohann" and "yohan" and "hans" and "hansel" and "hanschen" and "hannes" and "hanes" and "jojo" and "jean" and "jan" and "jens" and "fils" and "enfant" and "homme" and "garcon" as "[Johannes]".
 
 Understand "gifler [someone]" and "insulter [someone]" as attacking.
@@ -152,7 +149,7 @@ Every turn when the player can see a chicken:
 
 Part 2 - Rooms
 
-The description of the player is "Vos jupes sont trouées et votre tablier couvert de taches. Vous n'en avez aucune honte[nbsp]: les travaux de la ferme sont rudes. Il serait inconvenant de porter en semaine les habits du dimanche."
+The description of the player is "Vos jupes sont trouées et votre tablier couvert de taches. Vous n'en avez aucune honte[_]: les travaux de la ferme sont rudes. Il serait inconvenant de porter en semaine les habits du dimanche."
 
 Understand "jupe" and "jupes" and "tablier" as yourself.
 
@@ -171,7 +168,7 @@ Instead of exiting from the Cour:
 To say no-leaving-farm:
 	say "Il est trop tard pour courir après Johannes."
 
-Some poules brunes are chickens in the Cour. The printed name of the poules brunes is "poules". The description of the poules brunes is "Elles caquètent avec indignation. Pourquoi leur repas tarde-t-il autant[nbsp]?"
+Some poules brunes are chickens in the Cour. The printed name of the poules brunes is "poules". The description of the poules brunes is "Elles caquètent avec indignation. Pourquoi leur repas tarde-t-il autant[_]?"
 
 La jatte de grain is a container in the Cour. "Une jatte est posée près de la porte." Understand "jattes" and "ble" as the jatte.
 
@@ -196,7 +193,7 @@ The maison-exterior can be enterable. The maison-exterior is enterable.
 Instead of entering the maison-exterior:
 	try going north.
 
-Le poulailler-exterior is privately-named scenery in the Cour. "Johannes et vous avez bâti ce poulailler ensemble. D'ordinaire, ce souvenir vous remplit de fierté[nbsp]; aujourd'hui, il est amer." The printed name of the poulailler-exterior is "poulailler". Understand "poulailler" as the poulailler-exterior.
+Le poulailler-exterior is privately-named scenery in the Cour. "Johannes et vous avez bâti ce poulailler ensemble. D'ordinaire, ce souvenir vous remplit de fierté[_]; aujourd'hui, il est amer." The printed name of the poulailler-exterior is "poulailler". Understand "poulailler" as the poulailler-exterior.
 
 The poulailler-exterior can be enterable. The poulailler-exterior is enterable.
 Instead of entering the poulailler-exterior:
@@ -264,7 +261,7 @@ Chapter 2 - Enfance
 
 Section 1 - Cour
 
-La Cour Etrange is a room. "[one of]Avec stupeur,[or]L'enchantement (ou l'hallucination[nbsp]?) persiste, et[stopping] vous vous retrouvez dans un endroit incompréhensible. Vous bien êtes sous les toits, vous reconnaissez bien la [charpente] et l['][echelle reelle] de votre grenier, mais il vous semble être dans la cour de votre ferme[nbsp]: voilà le poulailler à l'ouest, la maison avec ses [marches-etranges] au nord, les [poules blanches] autour de vos pieds. Et pourtant tout cela tient dans le grenier." The printed name of the Cour Etrange is "Cour…?".
+La Cour Etrange is a room. "[one of]Avec stupeur,[or]L'enchantement (ou l'hallucination[_]?) persiste, et[stopping] vous vous retrouvez dans un endroit incompréhensible. Vous bien êtes sous les toits, vous reconnaissez bien la [charpente] et l['][echelle reelle] de votre grenier, mais il vous semble être dans la cour de votre ferme[_]: voilà le poulailler à l'ouest, la maison avec ses [marches-etranges] au nord, les [poules blanches] autour de vos pieds. Et pourtant tout cela tient dans le grenier." The printed name of the Cour Etrange is "Cour…?".
 
 Instead of going inside from the Cour Etrange:
 	say "Vous pouvez entrer dans la maison (au nord) ou dans le poulailler (à l'ouest). Vous pouvez également redescendre par l'échelle."
@@ -292,7 +289,7 @@ Instead of entering the poulailler-etrange-exterior:
 Les marches-etranges (f) are a door. The marches-etranges are up of the Cour Etrange and down of the Maison Etrange. The printed name of the marches-etranges is "marches". Understand "marche" and "marches" and "escalier" as the marches-etranges.
 The marches-etranges are open, not openable, and not lockable.
 
-Some poules blanches are chickens in the Cour Etrange. The printed name of the poules blanches is "poules". The description of the poules blanches is "Étrange[nbsp]: vous avez toujours eu des poules rousses et brunes, mais celles-ci sont blanches." Understand "blanc" and "blanche" and "blancs" and "blanches" as the poules.
+Some poules blanches are chickens in the Cour Etrange. The printed name of the poules blanches is "poules". The description of the poules blanches is "Étrange[_]: vous avez toujours eu des poules rousses et brunes, mais celles-ci sont blanches." Understand "blanc" and "blanche" and "blancs" and "blanches" as the poules.
 
 Johannes Enfant is a man in the Cour Etrange. "[one of]Un petit garçon — non, c'est Johannes, mais redevenu enfant —[or]Johannes[stopping] court après les poules." Understand "[Johannes]" and "bebe" and "petit" as Johannes Enfant. The printed name of Johannes Enfant is "Johannes".
 
@@ -308,7 +305,7 @@ Instead of kissing Johannes Enfant:
 	say "Il se serre contre vous."
 
 Instead of going to the Maison Etrange from the Cour Etrange when Johannes is in the Cour Etrange:
-	say "Johannes vous tire par la manche. 'Maman[nbsp]! Il faut que tu m'aides à ramasser les œufs[nbsp]!'"
+	say "Johannes vous tire par la manche. 'Maman[_]! Il faut que tu m'aides à ramasser les œufs[_]!'"
 
 Section 2 - Poulailler
 
@@ -344,7 +341,7 @@ Chapter 3 - Adolescence
 
 Section 1 - Maison
 
-La Maison Etrange is north of the Cour Etrange. [also up of it, because of the steps] "Vous trouvez votre maison dans l'état où Johannes la mettait à quinze ans, c'est-à-dire dans un [desordre] abominable. Des vêtements roulés en boule jonchent le sol jusqu'aux [marches-etranges] ou pendent des barreaux de l['][echelle], les meubles sont couverts de détritus, la vaisselle n'est pas faite." The printed name of the Maison Etrange is "Maison[nbsp](?)". Outside from the Maison Etrange is the Cour Etrange.
+La Maison Etrange is north of the Cour Etrange. [also up of it, because of the steps] "Vous trouvez votre maison dans l'état où Johannes la mettait à quinze ans, c'est-à-dire dans un [desordre] abominable. Des vêtements roulés en boule jonchent le sol jusqu'aux [marches-etranges] ou pendent des barreaux de l['][echelle], les meubles sont couverts de détritus, la vaisselle n'est pas faite." The printed name of the Maison Etrange is "Maison[_](?)". Outside from the Maison Etrange is the Cour Etrange.
 
 Before going to the Grenier from the Maison Etrange for the first time:
 	say "Vous inspirez profondément. Qui sait ce que vous trouverez en haut de cette échelle ?"
@@ -352,19 +349,19 @@ Before going to the Grenier from the Maison Etrange for the first time:
 Instead of going nowhere from the Maison Etrange:
 	say "Vous pouvez descendre les marches au sud, ou monter par l'échelle."
 
-Les murs de la maison etrange (m) are scenery in the Maison Etrange. "Il a même sali les murs[nbsp]!" The printed name of the murs de la maison etrange is "murs de la maison". Understand "murs" and "mur" and "pierre" and "pierres" as the murs de la maison etrange.
+Les murs de la maison etrange (m) are scenery in the Maison Etrange. "Il a même sali les murs[_]!" The printed name of the murs de la maison etrange is "murs de la maison". Understand "murs" and "mur" and "pierre" and "pierres" as the murs de la maison etrange.
 
 The desordre is scenery in the Maison Etrange. The printed name of the desordre is "désordre". Understand "vetement" and "vetements" and "habit" and "habits" and "sale" and "sales" and "detritus" and "ordure" and "ordures" and "vaisselle" and "assiette" and "assiettes" and "couvert" and "couverts" and "chaos" and "bordel" and "boxon" and "abominable" as the desordre.
 
 The description of the desordre is "Johannes était si désordonné à cet âge. Il n'était jamais à la maison, ne rentrait que pour manger, et laissait tout en plan."
 
-The scent of the desordre is "Pouah[nbsp]! Ça sent le fauve[nbsp]!"
+The scent of the desordre is "Pouah[_]! Ça sent le fauve[_]!"
 
 Understand the command "ranger" as "take".
 Instead of taking or searching the desordre:
 	say "Vous tentez de mettre un peu d'ordre, mais autant nettoyer les écuries d'Augias."
 
-Le journal intime is in the Maison Etrange. "Parmi tout ce chaos, Johannes a laissé traîner son journal intime.[one of] A-t-il vraiment jamais été négligent à ce point[nbsp]? Ou l'a-t-il fait par défi[nbsp]?[or][stopping]". The description of the journal intime is "Vous voyez parfois Johannes écrire dans ce carnet froissé." Understand "cahier" and "carnet" as the journal. The journal can be openable. The journal is openable.
+Le journal intime is in the Maison Etrange. "Parmi tout ce chaos, Johannes a laissé traîner son journal intime.[one of] A-t-il vraiment jamais été négligent à ce point[_]? Ou l'a-t-il fait par défi[_]?[or][stopping]". The description of the journal intime is "Vous voyez parfois Johannes écrire dans ce carnet froissé." Understand "cahier" and "carnet" as the journal. The journal can be openable. The journal is openable.
 
 Understand the command "lire" as something new.
 
@@ -388,7 +385,7 @@ Instead of burning or attacking the journal:
 L' echelle etrange (f) is a door. It is up of the Maison Etrange and down of the Grenier. The printed name of the echelle etrange is "échelle". Understand "barreau" and "barreaux" and "bois" and "massif" as the echelle.
 The echelle is open. The echelle is not openable. The echelle is not lockable.
 
-The description of the echelle is "Cette grande échelle de bois massif mène[if the Grenier is enchanted]… au grenier, ou à un autre enchantement[nbsp]?[otherwise] au grenier.[end if] Johannes a accroché des vêtements sales aux barreaux."
+The description of the echelle is "Cette grande échelle de bois massif mène[if the Grenier is enchanted]… au grenier, ou à un autre enchantement[_]?[otherwise] au grenier.[end if] Johannes a accroché des vêtements sales aux barreaux."
 
 Instead of entering or climbing the echelle when the player is in the Maison Etrange:
 	try going up.
@@ -407,7 +404,7 @@ Age Adulte is a region. The Grenier is in Age Adulte. The printed name of Age Ad
 
 The Grenier can be enchanted or mundane. The Grenier is enchanted.
 
-The printed name of the Grenier is "Grenier[if the grenier is enchanted][nbsp](?)[end if]".
+The printed name of the Grenier is "Grenier[if the grenier is enchanted][_](?)[end if]".
 
 The description of the Grenier is "[if the Grenier is enchanted][enchanted-grenier][otherwise]Le grenier est revenu à la normale. Le soleil filtre en longs rayons entre les tuiles du toit. Mais il est absolument vide. Où sont vos sacs de grains, vos barils d'huile et de bière, votre lard fumé ?[end if]"
 
@@ -444,7 +441,7 @@ A thing can be illusory.
 
 Les tentures (f) are scenery in the Grenier. Understand "riche" and "riches" and "tenture" as the tentures. The tentures can be openable. The tentures are openable. The tentures are illusory.
 
-The description of the tentures is "Ces tentures décoraient le bal de la Saint-Martin, vous vous en souvenez très bien[nbsp]: vous avez aidé vous-même à les coudre. Elles protègent ce bal de la lumière du jour."
+The description of the tentures is "Ces tentures décoraient le bal de la Saint-Martin, vous vous en souvenez très bien[_]: vous avez aidé vous-même à les coudre. Elles protègent ce bal de la lumière du jour."
 
 The sound of the tentures is "Les tentures bruissent."
 
@@ -539,7 +536,7 @@ Instead of giving or showing something to Johannes Adulte when the Grenier is mu
 	say "Johannes regarde [the noun] un instant puis retourne à ses pensées."
 
 Instead of giving or showing the journal to Johannes Adulte when the Grenier is mundane:
-	say "Johannes regarde le journal un instant. 'Mon vieux journal intime[nbsp]? C'est une bonne idée. Cela me rappellera des souvenirs…'
+	say "Johannes regarde le journal un instant. 'Mon vieux journal intime[_]? C'est une bonne idée. Cela me rappellera des souvenirs…'
 	
 	Il se lève et, le nez dans le journal, s'éloigne, marchant sur un rayon de soleil. Il traverse le toit sans même s'en apercevoir.";
 	now the journal is nowhere;
