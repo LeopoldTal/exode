@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ifindex version="1.0" xmlns="http://babel.ifarchive.org/protocol/iFiction/">
+    <story>
+        <identification>
+            <ifid>90BB4202-2D7F-4F66-B2C8-CB0DC0FECD74</ifid>
+            <format>glulx</format>
+        </identification>
+        <bibliographic>
+            <title>Exode</title>
+            <author>Léopold Tal</author>
+            <headline>Une aventure domestique</headline>
+            <genre>Fantasy</genre>
+            <firstpublished>2021</firstpublished>
+            <description>'C'est inutile', dit Johannes. Il ne vous appelle pas maman. Vous voulez lui répondre, mais vous n'osez pas croiser son regard.<br/>Les yeux rivés sur le sol, vous l'entendez finir son café et poser le bol sur la table. La parole vous revient lorsqu'il ouvre la porte.<br/>'Mais… où iras-tu ?'<br/>'C'est mon affaire.' Est-ce de la hargne dans sa voix, ou simplement de l'indifférence ?<br/>Vous restez figée devant le portail longtemps après qu'il a disparu sur la grand'route. Puis les bruits de la ferme vous ramènent à vous-même. Votre labeur quotidien n'attend pas ; il est temps de nourrir les poules.</description>
+            <language>fr</language>
+            <group>Inform</group>
+        </bibliographic>
+        <cover>
+            <format>jpg</format>
+            <height>540</height>
+            <width>540</width>
+            <description>Un champ dans la brume</description>
+        </cover>
+        <releases>
+            <attached>
+                <release>
+                    <releasedate>2021-04-11</releasedate>
+                    <version>1</version>
+                    <compiler>Inform 7</compiler>
+                    <compilerversion>6L38</compilerversion>
+                </release>
+            </attached>
+        </releases>
+        <colophon>
+            <generator>Inform 7</generator>
+            <generatorversion>6L38</generatorversion>
+            <originated>2021-04-11</originated>
+        </colophon>
+        <glulx>
+            <serial>210411</serial>
+            <release>1</release>
+            <compiler>Inform 7 build 6L38</compiler>
+            <coverpicture>1</coverpicture>
+        </glulx>
+    </story>
+</ifindex>
