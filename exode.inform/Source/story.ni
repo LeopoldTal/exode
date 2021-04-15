@@ -74,8 +74,7 @@ Understand the command "rejoindre" as "x". [kinda hacky…]
 Section 4 - Senses
 
 Every thing has some text called the sound. The sound of a thing is usually "".
-Definition: A thing is silent if the sound of it is "".
-Definition: A thing is audible if it is not silent.
+Definition: A thing is silent rather than audible if the sound of it is "".
 
 The report listening rule is not listed in any rulebook.
 Carry out listening to something silent:
@@ -90,8 +89,7 @@ Carry out listening to a room:
 		try listening to the target instead.
 
 Every thing has some text called the scent. The scent of a thing is usually "".
-Definition: A thing is scentless if the scent of it is "".
-Definition: A thing is scented if it is not scentless.
+Definition: A thing is scentless rather than scented if the scent of it is "".
 
 The report smelling rule is not listed in any rulebook.
 Carry out smelling something scentless:
@@ -101,7 +99,7 @@ Carry out smelling something scented:
 Carry out smelling a room:
 	let target be a random scented thing in the noun;
 	if target is nothing:
-		say "Vous ne sentez rien";
+		say "Vous ne sentez rien.";
 	otherwise:
 		try smelling the target instead.
 
