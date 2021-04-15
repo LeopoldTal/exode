@@ -63,13 +63,28 @@ After reading a command:
 		say "[bracket]Noté.[close bracket]";
 		reject the player's command.
 
-Section 3 - Synonyms
+Section 3 - Understanding
 
 Understand "johannes" and "johanes" and "yohannes" and "yohanes" and "johann" and "johan" and "yohann" and "yohan" and "hans" and "hansel" and "hanschen" and "hannes" and "hanes" and "jojo" and "jean" and "jan" and "jens" and "fils" and "enfant" and "homme" and "garcon" as "[Johannes]".
 
 Understand "gifler [someone]" and "insulter [someone]" as attacking.
 
 Understand the command "rejoindre" as "x". [kinda hacky…]
+
+A thing can be climbable.
+Does the player mean climbing:
+	if the noun is climbable:
+		if the noun is the lumiere:
+			it is very likely;
+		it is likely;
+	if the noun is the marches or the noun is the marches-etranges:
+		say "[The noun] is the marches.";
+		it is possible;
+	otherwise:
+		it is unlikely.
+
+Instead of climbing when the noun is a door:
+	try entering the noun.
 
 Section 4 - Senses
 
@@ -232,14 +247,9 @@ Instead of going nowhere from the Maison:
 Les murs de la maison (m) are scenery in the Maison. "Ces épais murs de pierre ont vu vos ancêtres grandir." Understand "mur" and "pierre" and "pierres" as the murs de la maison.
 
 L' echelle reelle (f) is a door. It is up of the Maison and down of the Cour Etrange. The printed name of the echelle reelle is "échelle". Understand "barreau" and "barreaux" and "bois" and "massif" as the echelle.
-The echelle is open. The echelle is not openable. The echelle is not lockable. The echelle is locked.
+The echelle is open. The echelle is not openable. The echelle is not lockable. The echelle is locked. The echelle is climbable.
 
 The description of the echelle is "Cette grande échelle de bois massif [if the player is in the Maison]mène au[otherwise]descend du[end if] grenier."
-
-Instead of entering or climbing the echelle when the player is in the Maison:
-	try going up.
-Instead of entering or climbing the echelle when the player is in the Cour Etrange:
-	try going down.
 
 Instead of going up from the Maison when the echelle is locked and the player does not carry the cle:
 	say "Vous n'avez pas la clé du grenier sur vous."
@@ -381,14 +391,9 @@ Instead of burning or attacking the journal:
 	end the story saying "Vous oubliez Johannes."
 
 L' echelle etrange (f) is a door. It is up of the Maison Etrange and down of the Grenier. The printed name of the echelle etrange is "échelle". Understand "barreau" and "barreaux" and "bois" and "massif" as the echelle.
-The echelle is open. The echelle is not openable. The echelle is not lockable.
+The echelle is open. The echelle is not openable. The echelle is not lockable. The echelle is climbable.
 
 The description of the echelle is "Cette grande échelle de bois massif mène[if the Grenier is enchanted]… au grenier, ou à un autre enchantement[_]?[otherwise] au grenier.[end if] Johannes a accroché des vêtements sales aux barreaux."
-
-Instead of entering or climbing the echelle when the player is in the Maison Etrange:
-	try going up.
-Instead of entering or climbing the echelle when the player is in the Grenier:
-	try going down.
 
 Adolescence is a region. The Maison Etrange is in Adolescence.
 
@@ -517,7 +522,7 @@ The description of Johannes Adulte is "Il semble encore moins réel, presque tra
 
 The sound of Johannes Adulte is "[if the Grenier is enchanted]Johannes discute avec Liesl avec animation.[otherwise]Johannes murmure pour lui-même, très bas.[end if]"
 
-Instead of going to the Air from the Grenier when Johannes is in the Grenier:
+Instead of going to the Air from the Grenier when the lumiere is not climbable:
 	say "Il n'y a pas de trou de cheminée par lequel passer."
 
 Instead of doing something other than examining or listening or smelling to Johannes when the Grenier is enchanted:
@@ -538,7 +543,8 @@ Instead of giving or showing the journal to Johannes Adulte when the Grenier is 
 	
 	Il se lève et, le nez dans le journal, s'éloigne, marchant sur un rayon de soleil. Il traverse le toit sans même s'en apercevoir.";
 	now the journal is nowhere;
-	now Johannes Adulte is nowhere.
+	now Johannes Adulte is nowhere;
+	now the lumiere is climbable.
 
 Chapter 5 - Sommet
 
