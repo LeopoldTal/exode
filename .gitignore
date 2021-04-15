@@ -9,6 +9,9 @@ Index/
 Release/
 Release.zip
 
+# Private
+my_notes
+
 # System
 *.swp
 Thumbs.db
